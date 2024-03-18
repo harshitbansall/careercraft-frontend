@@ -74,7 +74,7 @@ function Home(props) {
       const loadData = async function () {
         const { data } = await axios.get(
           // "https://hbansal28.pythonanywhere.com/api/v1/config",
-          "http://127.0.0.1:8000/api/v1/config",
+          "https://teamdebug.pythonanywhere.com/api/v1/config",
           { headers: { Authorization: "JWT " + cookies.get("access_token") } }
         );
         setLoading(false);

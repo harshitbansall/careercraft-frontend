@@ -19,7 +19,7 @@ export default function LearnQuery(props) {
     props.setProgress(30);
     const loadData = async function () {
 
-      const { data } = await axios.get("http://127.0.0.1:8000/api/v1/learn");
+      const { data } = await axios.get("https://teamdebug.pythonanywhere.com/api/v1/learn");
       setQueryData(data.data);
       props.setProgress(100);
     };
