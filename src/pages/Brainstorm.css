@@ -1,0 +1,113 @@
+.brainstormHeading {
+    font-family: monospace;
+    max-width: 25rem;
+
+    padding: 15px;
+    padding-left: 20px;
+    transition: 0.3s;
+    font-size: 20px;
+    border: 1px solid cyan;
+    background-color: #020c1b;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.content-boxes {
+
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    overflow-y: auto;
+
+
+    background: rgba(0, 0, 0, 0.2);
+
+    border: 1px solid cyan;
+
+    cursor: default;
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+.youtube-item-li {
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    border: 0px;
+    text-align: left;
+    font-weight: 1;
+    font-family: monospace;
+    letter-spacing: 0px;
+}
+
+.youtube-item-button {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+}
+
+.youtube-item-button:hover {
+    background: rgba(0, 0, 0, 0.3);
+    ;
+}
+
+.youtube-item-div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.youtube-item-thumbnail {
+    width: 60px;
+    height: 40px;
+}
+
+.youtube-item-title {
+    font-size: 15px;
+    margin: 0;
+    margin-left: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: cyan;
+
+}
+
+
+.loaderCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+}
+
+
+.show {
+    opacity: 1;
+    transition: all 1s;
+    filter: blur(0px);
+    transform: translateX(0%);
+
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 10ms;
+    filter: blur(2px);
+}

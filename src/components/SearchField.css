@@ -1,0 +1,30 @@
+#searchInputBox{
+    width: 30rem;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 20px;
+    transition: 0.3s;
+    font-size: 30px;
+    border: 1px solid white;
+    background-color: #020c1b;
+    text-align: center;
+}
+
+/* #searchInputBox:hover{
+    background: white;
+} */
+
+/* #searchInputBox:focus{
+    background: white;
+    
+} */
+
+#searchInputBox::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#searchInputBox:hover::placeholder {
+    color: wheat;
+    opacity: 0.5;
+}

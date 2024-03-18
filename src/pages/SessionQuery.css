@@ -1,0 +1,58 @@
+#searchInputBox{
+    width: 30rem;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 20px;
+    transition: 0.3s;
+    font-size: 30px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background-color: #020c1b;
+    text-align: center;
+}
+
+/* #searchInputBox:hover{
+    background: white;
+} */
+
+/* #searchInputBox:focus{
+    background: white;
+    
+} */
+
+#searchInputBox::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#searchInputBox:hover::placeholder {
+    color: wheat;
+    opacity: 0.5;
+}
+
+
+.selectLang{
+    margin-left: 2rem;
+    padding-right: 1rem;
+    width: 18rem;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 20px;
+    transition: 0.3s;
+    font-size: 30px;
+    color: #878899;
+    border: 1px solid white;
+    background-color: #020c1b;
+    text-align: center;
+}
+
+#submitCareerPlanning{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 70px;
+    background-color: #020c1b;
+    font-size: 24px;
+    border-width: 3px;
+    border-color: white;
+}
