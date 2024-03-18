@@ -19,7 +19,7 @@ export default function QuizQuery(props) {
     props.setProgress(30);
     const loadData = async function () {
 
-      const { data } = await axios.get("https://teamdebug.pythonanywhere.com/api/v1/practice");
+      const { data } = await axios.get("https://careercraft.pythonanywhere.com/api/v1/practice");
       setQueryData(data.data);
       props.setProgress(100);
     };

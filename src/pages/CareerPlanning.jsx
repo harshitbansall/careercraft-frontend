@@ -14,7 +14,7 @@ export default function CareerPlanning(props) {
     props.setProgress(30);
     const loadData = async function () {
 
-      const { data } = await axios.get("https://teamdebug.pythonanywhere.com/api/v1/careerPlanning");
+      const { data } = await axios.get("https://careercraft.pythonanywhere.com/api/v1/careerPlanning");
       setCareerData(data.data);
       props.setProgress(100);
     };

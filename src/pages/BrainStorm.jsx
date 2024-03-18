@@ -30,7 +30,7 @@ export default function BrainStorm(props) {
         props.setProgress(20);
         const loadData = async function () {
 
-            const { data } = await axios.get("https://teamdebug.pythonanywhere.com/api/v1/brainstorm?query=" + searchParams.get("query"));
+            const { data } = await axios.get("https://careercraft.pythonanywhere.com/api/v1/brainstorm?query=" + searchParams.get("query"));
             setYoutubeData(data.data.youtube.items);
             setGithubData(data.data.github.items);
             setWikipediaData(data.data.wikipedia.items);

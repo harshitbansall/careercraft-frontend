@@ -54,7 +54,7 @@ export default function SignUp(props) {
     props.setProgress(20);
     const { data } = await axios.post(
       "https://hbansal28.pythonanywhere.com/api/v1/token/obtain",
-      // "https://teamdebug.pythonanywhere.com/api/v1/signup",
+      // "https://careercraft.pythonanywhere.com/api/v1/signup",
       {
         full_name: firstNameInput + " " + lastNameInput,
         email: emailInput,

@@ -42,7 +42,7 @@ export default function Login(props) {
     props.setProgress(20);
     const { data } = await axios.post(
       // "https://hbansal28.pythonanywhere.com/api/v1/token/obtain",
-      "https://teamdebug.pythonanywhere.com/api/v1/token/obtain",
+      "https://careercraft.pythonanywhere.com/api/v1/token/obtain",
       { email: emailInput, password: passwordInput }
     );
 

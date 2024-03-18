@@ -19,7 +19,7 @@ export default function Quiz(props) {
     useEffect(() => {
         props.setProgress(20);
         const loadData = async function () {
-            const { data } = await axios.get("https://teamdebug.pythonanywhere.com/api/v1/quiz?query=" + searchParams.get("query"));
+            const { data } = await axios.get("https://careercraft.pythonanywhere.com/api/v1/quiz?query=" + searchParams.get("query"));
 
             setQuestions(data.quiz.quiz.questions);
             setLoading(false);
